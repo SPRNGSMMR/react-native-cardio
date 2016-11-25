@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20FE69C21D3835C200C3991D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FE69BD1D3835C200C3991D /* AssetsLibrary.framework */; };
+		20FE69C31D3835C200C3991D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FE69BE1D3835C200C3991D /* AudioToolbox.framework */; };
+		20FE69C41D3835C200C3991D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FE69BF1D3835C200C3991D /* AVFoundation.framework */; };
+		20FE69C51D3835C200C3991D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FE69C01D3835C200C3991D /* CoreMedia.framework */; };
+		20FE69C61D3835C200C3991D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FE69C11D3835C200C3991D /* CoreVideo.framework */; };
+		20FE69FC1D383FBF00C3991D /* libcardio-ios-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BC340E1D37EF090068726D /* libcardio-ios-static.a */; };
+		68BC330D1D36AF760068726D /* RCTCardIOView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 68BC330C1D36AF760068726D /* RCTCardIOView.h */; };
+		68BC330F1D36AF760068726D /* RCTCardIOView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BC330E1D36AF760068726D /* RCTCardIOView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68BC33071D36AF760068726D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				68BC330D1D36AF760068726D /* RCTCardIOView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		20FE69BD1D3835C200C3991D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		20FE69BE1D3835C200C3991D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		20FE69BF1D3835C200C3991D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		20FE69C01D3835C200C3991D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		20FE69C11D3835C200C3991D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		68BC33091D36AF760068726D /* libRCTCardIO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTCardIO.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BC330C1D36AF760068726D /* RCTCardIOView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTCardIOView.h; sourceTree = "<group>"; };
+		68BC330E1D36AF760068726D /* RCTCardIOView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTCardIOView.m; sourceTree = "<group>"; };
+		68BC340B1D37EF090068726D /* CardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardInfo.h; sourceTree = "<group>"; };
+		68BC340C1D37EF090068726D /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		68BC340D1D37EF090068726D /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		68BC340E1D37EF090068726D /* libcardio-ios-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libcardio-ios-static.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68BC33061D36AF760068726D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FE69C21D3835C200C3991D /* AssetsLibrary.framework in Frameworks */,
+				20FE69C31D3835C200C3991D /* AudioToolbox.framework in Frameworks */,
+				20FE69C41D3835C200C3991D /* AVFoundation.framework in Frameworks */,
+				20FE69C51D3835C200C3991D /* CoreMedia.framework in Frameworks */,
+				20FE69C61D3835C200C3991D /* CoreVideo.framework in Frameworks */,
+				20FE69FC1D383FBF00C3991D /* libcardio-ios-static.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68BC33001D36AF760068726D = {
+			isa = PBXGroup;
+			children = (
+				68BC34101D37EF0D0068726D /* frameworks */,
+				68BC33151D36AF980068726D /* lib */,
+				68BC330B1D36AF760068726D /* RCTCardIO */,
+				68BC330A1D36AF760068726D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68BC330A1D36AF760068726D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68BC33091D36AF760068726D /* libRCTCardIO.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68BC330B1D36AF760068726D /* RCTCardIO */ = {
+			isa = PBXGroup;
+			children = (
+				68BC330C1D36AF760068726D /* RCTCardIOView.h */,
+				68BC330E1D36AF760068726D /* RCTCardIOView.m */,
+			);
+			path = RCTCardIO;
+			sourceTree = "<group>";
+		};
+		68BC33151D36AF980068726D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				68BC34081D37EF090068726D /* cardio-ios */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		68BC34081D37EF090068726D /* cardio-ios */ = {
+			isa = PBXGroup;
+			children = (
+				68BC34091D37EF090068726D /* include */,
+				68BC340E1D37EF090068726D /* libcardio-ios-static.a */,
+			);
+			name = "cardio-ios";
+			path = "lib/cardio-ios";
+			sourceTree = "<group>";
+		};
+		68BC34091D37EF090068726D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				68BC340A1D37EF090068726D /* cardio-ios-static */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		68BC340A1D37EF090068726D /* cardio-ios-static */ = {
+			isa = PBXGroup;
+			children = (
+				68BC340B1D37EF090068726D /* CardInfo.h */,
+				68BC340C1D37EF090068726D /* CardIO.h */,
+				68BC340D1D37EF090068726D /* CardView.h */,
+			);
+			path = "cardio-ios-static";
+			sourceTree = "<group>";
+		};
+		68BC34101D37EF0D0068726D /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20FE69BD1D3835C200C3991D /* AssetsLibrary.framework */,
+				20FE69BE1D3835C200C3991D /* AudioToolbox.framework */,
+				20FE69BF1D3835C200C3991D /* AVFoundation.framework */,
+				20FE69C01D3835C200C3991D /* CoreMedia.framework */,
+				20FE69C11D3835C200C3991D /* CoreVideo.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68BC33081D36AF760068726D /* RCTCardIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BC33121D36AF760068726D /* Build configuration list for PBXNativeTarget "RCTCardIO" */;
+			buildPhases = (
+				68BC33051D36AF760068726D /* Sources */,
+				68BC33061D36AF760068726D /* Frameworks */,
+				68BC33071D36AF760068726D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTCardIO;
+			productName = RCTCardIO;
+			productReference = 68BC33091D36AF760068726D /* libRCTCardIO.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68BC33011D36AF760068726D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sylvain Reucherand";
+				TargetAttributes = {
+					68BC33081D36AF760068726D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 68BC33041D36AF760068726D /* Build configuration list for PBXProject "RCTCardIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68BC33001D36AF760068726D;
+			productRefGroup = 68BC330A1D36AF760068726D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68BC33081D36AF760068726D /* RCTCardIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68BC33051D36AF760068726D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BC330F1D36AF760068726D /* RCTCardIOView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68BC33101D36AF760068726D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68BC33111D36AF760068726D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68BC33131D36AF760068726D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../example/node_modules/react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/lib",
+					"$(PROJECT_DIR)/lib/cardio-ios",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		68BC33141D36AF760068726D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../example/node_modules/react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/lib",
+					"$(PROJECT_DIR)/lib/cardio-ios",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68BC33041D36AF760068726D /* Build configuration list for PBXProject "RCTCardIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BC33101D36AF760068726D /* Debug */,
+				68BC33111D36AF760068726D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68BC33121D36AF760068726D /* Build configuration list for PBXNativeTarget "RCTCardIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BC33131D36AF760068726D /* Debug */,
+				68BC33141D36AF760068726D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68BC33011D36AF760068726D /* Project object */;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "react-native-cardio",
+  "version": "0.1.0",
+  "description": "card.io component for React Native",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "curl -L \"https://github.com/SPRNGSMMR/react-native-cardio/raw/master/ios/lib/cardio-ios.tar.gz\" > ios/lib/cardio-ios.tar.gz && tar -zxvf ios/lib/cardio-ios.tar.gz -C ios/lib/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPRNGSMMR/react-native-cardio.git"
+  },
+  "author": "Sylvain Reucherand <sr@springsummer.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SPRNGSMMR/react-native-cardio/issues"
+  },
+  "homepage": "https://github.com/SPRNGSMMR/react-native-cardio#readme"
+}
