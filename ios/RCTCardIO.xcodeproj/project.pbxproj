@@ -288,8 +288,6 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/node_modules/react-native/React/**",
-					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../example/node_modules/react-native/React/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -309,8 +307,6 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/node_modules/react-native/React/**",
-					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../example/node_modules/react-native/React/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "RCTViewManager.h"
+#import <React/RCTViewManager.h>
 
 #import "CardIO.h"
 
